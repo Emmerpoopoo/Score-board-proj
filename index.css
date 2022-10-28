@@ -1,0 +1,30 @@
+body {
+    color: antiquewhite;
+    margin: 0;
+    text-align: center;
+    background: #041E42;
+    font-family: 
+}
+
+.score {
+    background: #0a0001;
+    font-size: 90px;
+    color: #F94F6D;
+    width: 140px;
+    margin: 20px;
+    border-radius: 5px;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+}
+
+button {
+    background: none;
+    color: #B9D9EB;
+    margin: 3px;
+    border: 1px solid #B9D9EB;
+    padding: 10px;
+    border-radius: 5px;
+}
