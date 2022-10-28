@@ -30,7 +30,7 @@ function increaseAwayScoreTwo() {
     awayScore += 2
     awayStoreEl.textContent = awayScore
 }
-function increaseawayScoreThree() {
+function increaseAwayScoreThree() {
     awayScore += 3
     awayStoreEl.textContent = awayScore
 }
