@@ -1,13 +1,13 @@
 let homeScoreBtnOne = document.getElementById("home-score-btn-1")
 let homeScoreBtnTwo = document.getElementById("home-score-btn-2")
 let homeScoreBtnThree = document.getElementById("home-score-btn-3")
-let guestScoreBtnOne = document.getElementById("guest-score-btn-1")
-let guestScorerBtnTwo = document.getElementById("guest-score-btn-2")
-let guestScoreBtnThree = document.getElementById("guest-score-btn-3")
+let awayScoreBtnOne = document.getElementById("away-score-btn-1")
+let awayScorerBtnTwo = document.getElementById("away-score-btn-2")
+let awayScoreBtnThree = document.getElementById("away-score-btn-3")
 let homeStoreEl = document.getElementById("home-score")
-let guestStoreEl = document.getElementById("guest-score")
+let awayStoreEl = document.getElementById("away-score")
 let homeScore = 0
-let guestScore = 0
+let awayScore = 0
 
 function increaseHomeScoreOne() {
     homeScore += 1
@@ -21,23 +21,16 @@ function increaseHomeScoreThree() {
     homeScore += 3
     homeStoreEl.textContent = homeScore
 }
-function increaseGuestScoreOne() {
-    guestScore += 1
-    guestStoreEl.textContent = guestScore
+
+function increaseAwayScoreOne() {
+    awayScore += 1
+    awayStoreEl.textContent = awayScore
 }
-function increaseGuestScoreTwo() {
-    guestScore += 2
-    guestStoreEl.textContent = guestScore
+function increaseAwayScoreTwo() {
+    awayScore += 2
+    awayStoreEl.textContent = awayScore
 }
-function increaseGuestScoreOne() {
-    guestScore += 1
-    guestStoreEl.textContent = guestScore
-}
-function increaseGuestScoreTwo() {
-    guestScore += 2
-    guestStoreEl.textContent = guestScore
-}
-function increaseGuestScoreThree() {
-    guestScore += 3
-    guestStoreEl.textContent = guestScore
+function increaseawayScoreThree() {
+    awayScore += 3
+    awayStoreEl.textContent = awayScore
 }
